@@ -2,6 +2,7 @@
 #ifndef CQIF_ACCEL_H_
 #define CQIF_ACCEL_H_
 
+#include <stddef.h>
 #include <stdint.h>
 
 #define ACCEL_JSON_SIZE 192

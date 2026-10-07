@@ -8,3 +8,5 @@ zephyr_ws/modules/
 zephyr_ws/tools/
 zephyr_ws/bootloader/
 zephyr_ws/**/build/
+
+zephyr_ws/apps/common/wifi_credentials.h
