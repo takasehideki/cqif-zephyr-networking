@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 manifest:
   projects:
     - name: zephyr
@@ -6,5 +7,11 @@ manifest:
       path: zephyr
       west-commands: scripts/west-commands.yml
       import: true
+
+    - name: zenoh-pico
+      url: https://github.com/takasehideki/zenoh-pico
+      # v1.10.1にZephyr対応のPR #1083を取り込んだ版
+      revision: v1.10.1-cqif
+      path: modules/lib/zenoh-pico
   self:
     path: manifest

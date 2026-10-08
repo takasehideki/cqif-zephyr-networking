@@ -9,4 +9,9 @@ zephyr_ws/tools/
 zephyr_ws/bootloader/
 zephyr_ws/**/build/
 
+# Ignore Wi-Fi credentials header file
 zephyr_ws/apps/common/wifi_credentials.h
+
+# Ignore Python cache and CSV files in the host workspace
+host_ws/__pycache__/
+host_ws/*.csv
