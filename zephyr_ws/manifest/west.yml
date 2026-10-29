@@ -9,9 +9,8 @@ manifest:
       import: true
 
     - name: zenoh-pico
-      url: https://github.com/takasehideki/zenoh-pico
-      # v1.10.1にZephyr対応のPR #1083を取り込んだ版
-      revision: v1.10.1-cqif
+      url: https://github.com/eclipse-zenoh/zenoh-pico
+      revision: 1.10.2
       path: modules/lib/zenoh-pico
   self:
     path: manifest
