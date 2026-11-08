@@ -1,0 +1,9 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore west workspace and Zephyr related directories
+.west/
+zephyr/
+modules/
+tools/
+bootloader/
