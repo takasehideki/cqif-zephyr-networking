@@ -11,3 +11,6 @@ bootloader/
 
 # Ignore Wi-Fi credentials header file
 apps/common/wifi_credentials.h
+
+# Ignore Python cache
+__pycache__/
