@@ -8,3 +8,6 @@ modules/
 tools/
 bootloader/
 **/build/
+
+# Ignore Wi-Fi credentials header file
+apps/common/wifi_credentials.h
